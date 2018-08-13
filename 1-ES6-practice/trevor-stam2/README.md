@@ -23,9 +23,11 @@ Follow these instructions carefully and in order.
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
 (Put your answer here)
+I changed const to let for the iterator in all the loops as consts were not recognized in loops. For the variables allProducts and totalClicks I changed from const and let as well. These get reassigned in a way during the process. Consts cannot be reassigned but can be mutated.  
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
 (Put your answer here)
+It makes things somewhat easier and does reduce the amount of code. Sometimes I'm not sure if the spacing will be working properly. So depending on the spacing between expressions and strings, I will use the old or the ES6 method.
